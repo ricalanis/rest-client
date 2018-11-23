@@ -217,6 +217,10 @@ module RestClient
 
       new_args[:password] = request.password
       new_args[:user] = request.user
+<<<<<<< Updated upstream
+=======
+      new_args[:payload] = Payload(request.payload)
+>>>>>>> Stashed changes
       new_args[:headers] = request.headers
       new_args[:max_redirects] = request.max_redirects - 1
 
